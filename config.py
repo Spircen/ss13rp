@@ -23,7 +23,7 @@ servers = {
     "VOREStation": ["VOREStation", "citadel", "citadel-station.net", 44150, "fetch"],
     "Citadel Station 13": ["Citadel Station", "citadel", "citadel-station.net", 44130, "fetch"],
     "CM-SS13": ["Colonial Marines", "cm", "play.cm-ss13.com", 1400, "fetch"],
-    "Hispania Station": ["NSS-Hispania", "para-code", "207.246.122.243", 3333, "fetch"],
+    "NSS-Hispania": ["[ES]Hispania", "para-code", "207.246.122.243", 3333, "fetch"],
     "ss13": ["Unknown Server", "ss13"]
 }
 
