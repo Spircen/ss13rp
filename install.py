@@ -1,7 +1,7 @@
 import time
 import psutil
 
-PROCNAME = "ss13rp.exe"
+PROCNAME = "SS13_Discord.exe"
 
 
 
@@ -20,9 +20,9 @@ try:
     install_path = 'C:\\Users\\'+USER_NAME+'\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\'
 
     print("Installing...\n")
-    url = "https://github.com/qwertyquerty/ss13rp/raw/master/dist/ss13rp.exe"
+    url = "https://github.com/Spircen/ss13rp"
     response = requests.get(url, stream=True)
-    handle = open(install_path+"ss13rp.exe", "wb")
+    handle = open(install_path+"SS13_Discord.exe.exe", "wb")
     dur = 0
     for chunk in response.iter_content(chunk_size=512):
         if chunk:
@@ -39,7 +39,7 @@ try:
 
     print("Installed!\n")
     print("Starting...\n")
-    subprocess.Popen("\""+install_path+"ss13rp.exe\"")
+    subprocess.Popen("\""+install_path+"SS13_Discord.exe.exe\"")
     print("Started!\n")
     time.sleep(1)
 except:

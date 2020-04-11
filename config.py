@@ -23,8 +23,9 @@ servers = {
     "VOREStation": ["VOREStation", "citadel", "citadel-station.net", 44150, "fetch"],
     "Citadel Station 13": ["Citadel Station", "citadel", "citadel-station.net", 44130, "fetch"],
     "CM-SS13": ["Colonial Marines", "cm", "play.cm-ss13.com", 1400, "fetch"],
+    "[ES]Hispania": ["Hispania Station", "paradise"],
     "ss13": ["Unknown Server", "ss13"]
 }
 
 # formula: "Server Name": ["Big text name", "icon", "ip", port]
-client_id = "440289271580983308"
+client_id = "557283374822195223"
