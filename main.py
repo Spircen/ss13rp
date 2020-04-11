@@ -92,7 +92,7 @@ else:
                         activity["party_size"] = [int(status["players"])]+[100]
                         activity["start"] = int(time.time())-util.get_sec(*status["roundduration"].split(":"))
 
-                    if server[0] in ["Paradise Station","[ES]Hispania"]:
+                    if server[0] in ["Paradise Station"]:
                         activity["state"] = status["map_name"]
                         activity["party_size"] = [int(status["players"])]+[250]
                         activity["start"] = int(time.time())-util.get_sec(*status["roundtime"].split(":"))
